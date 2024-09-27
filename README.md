@@ -1,0 +1,3 @@
+- [ ] bigger dataset american + british
+- [ ] dataset with some modifications like movie plot:
+- [ ] proper readme
