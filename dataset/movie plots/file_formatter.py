@@ -9,8 +9,8 @@ def clean_text(text):
 data = pd.read_csv('dataset/movie plots/wiki_movie_plots_deduped.csv')
 all_countries = data["Origin/Ethnicity"].unique()
 print(all_countries)
-english_countries = ["American", "British", "Australian", "Canadian"]
-#data = data[data["Origin/Ethnicity"].isin(english_countries)]
+# english_countries = ["American", "British", "Australian", "Canadian"]
+# data = data[data["Origin/Ethnicity"].isin(english_countries)]
 print(len(data))
 
 with open('dataset/movie plots/all_plots.txt', 'w', encoding="utf-8") as f:
